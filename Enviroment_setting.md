@@ -1,5 +1,5 @@
 # Enviroment setting
-Here are some very useful config and command for me to build a work enviroment in linux (unbunt / centos) platform.
+Here are some very useful configs and commands for me to build a work enviroment in linux (unbunt / centos) platform.
 
 ## Linux setting
 1. Generating a new SSH key  
@@ -17,7 +17,7 @@ Command:
         User [username]  
 ```
 
-
+3. Set the authorized_keys to allow SSH without password (use the id_rsa.pub)
 
 
 
@@ -25,3 +25,5 @@ Command:
 SSH key:  
 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  
 
+SSH config:  
+http://zlong.org/2015/06/08/ssh-config/
