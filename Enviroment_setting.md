@@ -1,4 +1,4 @@
-# Enviroment setting
+# Enviroment settings and commands
 Here are some very useful configs and commands for me to build a work enviroment in linux (unbunt / centos) platform, some also may be suitable for macOS.
 
 ## Linux setting
