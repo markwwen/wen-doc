@@ -114,7 +114,10 @@ Then configure plugins by put this at the top of your .vimrc to use Vundle. Remo
     pip install [packageName] -i https://pypi.doubanio.com/simple
 ```
 
-
+2. Checking the direcory and file size
+```
+du -sh *
+```
 
 
 ## Reference
