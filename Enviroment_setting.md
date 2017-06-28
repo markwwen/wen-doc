@@ -28,7 +28,7 @@ If it fails, maybe you need to verified your permissions are correct, you can fi
     chmod 600 ~/.ssh/authorized_keys
 ```
 
-4. Change the shell to `zsh` and install `oh-my-zsh`. But attention, if you change the shell to `zsh`, you need to modify `.zshrc` rather thant `.bashrc`.
+4. Change the shell to `zsh` and install `oh-my-zsh`. But attention, if you change the shell to `zsh`, you need to modify `.zshrc` rather thant `.bashrc`.
 ```
     chsh -s /bin/zsh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
