@@ -116,7 +116,7 @@ Then configure plugins by put this at the top of your .vimrc to use Vundle. Remo
 
 2. Checking the direcory and file size
 ```
-du -sh *
+    du -sh *
 ```
 
 
