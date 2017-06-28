@@ -97,7 +97,7 @@ Then configure plugins by put this at the top of your .vimrc to use Vundle. Remo
     pip install virtualenv
 ```
 
-3. Install `virtualenvwrapper` for your python and set it as the doc. But attention, if you change the shell to `zsh`, you need to modify `.zshrc` rather thant `.bashrc`.
+3. Install `virtualenvwrapper` for your python and set it as the doc. But attention, if you change the shell to `zsh`, you need to modify `.zshrc` rather thant `.bashrc`.
 ```
     pip install virtualenvwrapper
 ```
