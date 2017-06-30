@@ -119,6 +119,17 @@ Then configure plugins by put this at the top of your .vimrc to use Vundle. Remo
     du -sh *
 ```
 
+3. git  
+![](git.png)  
+Initial, add remote reponsitory, and push(firstly):
+```
+    git init
+    git remote add <remote_name> <remote_repo_url>
+    git push -u <remote_name> <local_branch_name>
+```
+
+
+
 
 ## Reference
 SSH key:  
@@ -158,4 +169,9 @@ virtualenv and virtualenvwrapper:
 make python3 virtualenv:
 ```
     https://stackoverflow.com/questions/16123459/virtualenvwrapper-and-python-3
+```
+
+git:  
+```
+    https://www.atlassian.com/git/tutorials/setting-up-a-repository
 ```
