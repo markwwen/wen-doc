@@ -1,4 +1,4 @@
-# Build Deep Learning Enviroment in AWS By Docker 
+# Build Deep Learning Enviroment in AWS by Docker 
 This note will show how to build a deep learning enviroment in aws server p2 instance(image: ubuntu 16.04 64-bit) by docker.
 
 ## Steps
