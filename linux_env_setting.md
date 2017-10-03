@@ -1,5 +1,5 @@
 # Enviroment settings and commands
-Here are some very useful configs and commands for me to build a work enviroment in linux (unbunt / centos) platform, some also may be suitable for macOS.
+Here are some very useful configs and commands for me to build a work enviroment in linux (unbunt / centos) platform, some may be also suitable for macOS.
 
 ## Linux setting
 1. Generating a new SSH key  
@@ -37,7 +37,7 @@ If it fails, maybe you need to verified your permissions are correct, you can fi
 ## Vim setting
 1. User vundle to configure vim enviroment  
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`  
-Then configure plugins by put this at the top of your .vimrc to use Vundle. Remove plugins you don't need, they are for illustration purposes. In my setting, I just set "nerdtree" plugin for me. Then launch `vim` and run `:PluginInstall`
+Then configure plugins by put this at the top of your `.vimrc` to use Vundle. Remove plugins you don't need, they are for illustration purposes. In my setting, I just set "nerdtree" plugin for me. Then launch `vim` and run `:PluginInstall`
 
 
 ## Python setting
@@ -51,6 +51,11 @@ Then configure plugins by put this at the top of your .vimrc to use Vundle. Remo
 3. Install `virtualenvwrapper` for your python and set it follow the [document](https://virtualenvwrapper.readthedocs.io/en/latest/). But attention, if you change the shell to `zsh`, you need to modify `.zshrc` rather thant `.bashrc`.
 ```
     pip install virtualenvwrapper
+```
+Add these two line to `.zshrc` (there is a little difference with the document: the `virtualenvwrapper.sh` always in `~/.local/bin/`. It depend on whether you use `sudo` in `pip install` or not.):
+```
+    export WORKON_HOME=~/Envs
+    source /~/.local/bin/virtualenvwrapper.sh
 ```
 4. Make a python3 enviroment
 ```
