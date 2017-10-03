@@ -16,8 +16,10 @@ Here are some very useful configs and commands for me to build a work enviroment
         User [username]  
 ```
 
-3. Set the authorized_keys to allow SSH without password (use the public key). For ubuntu, openssh server need to be installed first.  
-Put your `id_rsa.pub` in server and run  
+3. Set the authorized_keys to allow SSH without password (use the public key). For ubuntu, openssh server need to be installed first.
+You can use this command:  
+`ssh-copy-id -i ~/.ssh/[keyname] user@host`  
+In another way, you can put your `id_rsa.pub` in server and run  
 `cat id_dsa.pub >> ~/.ssh/authorized_keys`  
 (Be worth mentioning, there is also a ssh tool for windows, you can find it in  
 https://www.openssh.com/  
