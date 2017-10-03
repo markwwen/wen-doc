@@ -51,11 +51,15 @@ Then configure plugins by put this at the top of your `.vimrc` to use Vundle. Re
 3. Install `virtualenvwrapper` for your python and set it follow the [document](https://virtualenvwrapper.readthedocs.io/en/latest/). But attention, if you change the shell to `zsh`, you need to modify `.zshrc` rather thant `.bashrc`.
 ```
     pip install virtualenvwrapper
+    export WORKON_HOME=~/Envs
+    mkdir -p $WORKON_HOME
+    source ~/.local/bin/virtualenvwrapper.sh
+    mkvirtualenv [nameOfEnvironment]
 ```
-Add these two line to `.zshrc` (there is a little difference with the document: the `virtualenvwrapper.sh` always in `~/.local/bin/`. It depend on whether you use `sudo` in `pip install` or not.):
+- Add these to `.zshrc` (there is a little difference with the document: the `virtualenvwrapper.sh` is always in `~/.local/bin/`. It depend on whether you use `sudo` in `pip install` or not.):
 ```
     export WORKON_HOME=~/Envs
-    source /~/.local/bin/virtualenvwrapper.sh
+    source ~/.local/bin/virtualenvwrapper.sh
 ```
 4. Make a python3 enviroment
 ```
